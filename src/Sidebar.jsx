@@ -3,7 +3,7 @@ import {useContext, useEffect} from "react";
 import {MyContext} from "./MyContext.jsx";
 import {v1 as uuidv1} from "uuid";
 
-import blacklogo from '../assets/blacklogo.png';
+import blacklogo from './assets/blacklogo.png';
 
 function Sidebar(){
     // allThreads will have only title and threadId of all threads
